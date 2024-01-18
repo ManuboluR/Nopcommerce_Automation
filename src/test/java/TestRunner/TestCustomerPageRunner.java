@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "C:\\Users\\850999\\IdeaProjects\\CucumberFrameWork\\Features\\Customers.feature",
+        features = "C://Users//850999//IdeaProjects//CucumberFrameWork//Features//Customers.feature",
         glue = "StepDefinations",
         dryRun = false,
         //monochrome = true,
