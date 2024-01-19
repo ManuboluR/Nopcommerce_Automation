@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "/home/ubuntu/Features/Login.feature",
+        features = "/var/lib/jenkins/jobs/Testjob/workspace/Login.feature",
         glue = "StepDefinations",
         dryRun = false,
         monochrome = true,
