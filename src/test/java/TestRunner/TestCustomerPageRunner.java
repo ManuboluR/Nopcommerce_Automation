@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "/root/Features/Customers.feature",
+        features = "/home/ubuntu/Features/Customers.feature",
         glue = "StepDefinations",
         dryRun = false,
         //monochrome = true,
