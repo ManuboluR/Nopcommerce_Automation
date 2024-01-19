@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "/home/ubuntu/Features/Customers.feature",
+        features = "/var/lib/jenkins/jobs/Testjob/workspace/Customers.feature",
         glue = "StepDefinations",
         dryRun = false,
         //monochrome = true,
